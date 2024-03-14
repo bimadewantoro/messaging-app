@@ -18,8 +18,8 @@ export default function Home() {
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
           <Image
             alt="Messaging"
-            height="48"
-            width="48"
+            height="200"
+            width="200"
             className="mx-auto w-auto"
             src="/images/logo.png" 
           />
@@ -27,13 +27,13 @@ export default function Home() {
             className="
               mt-6
               text-center
-              text-3xl
+              text-xl
               font-bold
               tracking-tight
               text-gray-900
             "
           >
-            Sign in to your account !
+            Secure your chats, your way. Step into Verbalize for better privacy.
           </h2>
         </div>
         <AuthForm />

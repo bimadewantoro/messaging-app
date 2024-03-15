@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({
                        transition
                        corsor-pointer
                     " 
-                    href="/coversations"
+                    href="/conversations"
                 >
                     <HiChevronLeft size={32} />
                 </Link>

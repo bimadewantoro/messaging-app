@@ -60,7 +60,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
                 <div className={message}>
                     { data.image ? (
                         <Image 
-                            alt="Image"
+                            alt="Image" 
                             height="288"
                             width="288"
                             src={data.image}
